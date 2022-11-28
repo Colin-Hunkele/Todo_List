@@ -1,1 +1,3 @@
 # Todo_List
+
+For this project I am going to attempt to create a Reminder app similar to what I created for my Mobile Computing Class. With the reminder app, the user will be able to create reminders with a name, date, and time. As well as able to delete them once they are completed. I will incorprate a user database where different users can log in to see their current reminders or to set up new ones. Once logged out, their reminders will be saved to the database for the next time that they log in
