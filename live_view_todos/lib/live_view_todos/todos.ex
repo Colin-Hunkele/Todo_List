@@ -18,7 +18,8 @@ defmodule LiveViewTodos.Todos do
 
   """
   def list_todos do
-    Repo.all(Todo)
+  query = from i in Todo, order_by: [desc: i.inserted_at]
+    Repo.all(query)
   end
 
   @doc """
